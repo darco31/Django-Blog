@@ -4,5 +4,5 @@ from django import forms
 
 class CommentForm(forms.ModelForm):
     class Meta:
-        maodel = Comment
+        model = Comment
         fields = ('body',)
